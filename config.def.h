@@ -24,11 +24,13 @@ static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_white, col_black, col_black },
 	[SchemeSel]  = { col_pink, col_black,  col_yellow },
+	[SchemeStatus] = { col_purple, col_black, col_black },
 };
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
 	[SchemeNorm] = { OPAQUE, baralpha, borderalpha },
 	[SchemeSel]  = { OPAQUE, baralpha, borderalpha },
+	[SchemeStatus] = { OPAQUE, baralpha, borderalpha },
 };
 
 /* tagging */
